@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Bootstrap</title>
+    <!-- Inclua o CSS do Bootstrap via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="anima.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="topo">
+       <div>
+        <img src="imgg/LOGO.png" alt="">
+       </div>
+
+      
+      <ul class="lista">
+        <li><a href="home">Home</a></li>
+        <li><a href="">Clientes</a></li>
+        <li><a href="">Privacidade</a></li>
+        <li><a href="#nos">Sobre Nos </a></li>
+      </ul>
+      <ul>
+        <li><a href="#ctt" id="but">Contatos </a></li>
+
+      </ul>
+    </div>
+
+
+
+    </nav>
+  </header>
+  <div class="linha"></div>
+
+    <main>
+      <div class="container-fluid">
+        <div  id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active" ></li>
+            <li data-target="#mainSlider" data-slide-to="1"  ></li>
+            <li data-target="#mainSlider" data-slide-to="2"  ></li>
+
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="img/Solucoe.jpg" class="d-block w-100" alt="projetos">
+            </div>
+            <div class="carousel-item ">
+              <img src="imgg/karlaa.jpg" class="d-block w-100" alt="projetos">
+            </div>
+            <div class="carousel-item ">
+              <img src="img/nova (5).png" class="d-block w-100" alt="projetos">
+            </div>
+            </div>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+      </div>
+      <section id="nos">
+      <div class="meio">
+        <div class="linha"></div>
+
+        <div class="borda">
+          <section class="su">
+            <div class="Sobre">
+              <div>
+                <img src="imgg/Historia.png" alt="">
+              </div>
+              <div class="c">
+                <h2>História</h2>
+               <p>Em 2023, fundamos nossa empresa como parte do TCC na ETEC de Itaquera, visando criar um site para localizar pessoas desaparecidas. A iniciativa surge da intenção de contribuir socialmente, aproveitando o crescimento tecnológico na área de crimes.</p>
+              </div>
+            </div>
+          </section>
+        
+          <section class="su">
+            <div class="Sobre">
+              <div>
+                <img src="img/Missao.png" alt="">
+              </div>
+              <div class="c">
+                <h2>Missão</h2>
+                <p>Criar um site com a capacidade de ajudar a divulgar com seriedade pessoas que precisam de ajuda para ser encontradas traze-las de volta para a suas famílias.</p>
+              </div>
+            </div>
+          </section>
+        
+          <section class="su">
+            <div class="Sobre">
+              <div>
+                <img src="imgg/visao.png" alt="">
+              </div>
+              <div class="c">
+                <h2>Visão</h2>
+                <p>Ser uma empresa com referência em soluções técnicas e transformadora através do compromisso com a sociedade.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+      </div>
+      <section id="ctt">
+      <h3>Entre em Contato</h3>
+            <div class="caixa"> 
+            
+              <img src="imgg/Forms-rafiki.svg" alt="">
+      <div class="formulario"  id="formulario">
+          <div class="form">
+        <form action="">
+          <fieldset>
+          <div class="cont" >
+            <label for="">Nome</label>
+            <input type="text" name="Nome" id="nome"></input>
+          </div>
+          <div class="cont" >
+            <label for="">Nome da empresa</label>
+            <input type="text" name="Nome" id="nome"></input>
+          </div>
+          <div class="cont" >
+            <label for="">Email</label>
+            <input type="Email" name="Email" id="Email">
+          </div>
+          <div class="cont">
+            <label   for="">Motivo da duvida</label>
+            <label for="">
+              <input type="radio" name="radio" id="Sugestao">Sugestão</input>
+              <input type="radio" name="radio" id="Reclamaçao">Reclamação</input>
+            </label>
+            <div>
+              <label for="">Comentario</label>
+            </div>
+            
+            <div class="se">
+
+              <textarea name="ideia" id="" cols="30" rows="6" class="come"></textarea>
+
+
+            </div>
+
+
+          </div>
+
+          <div class="b">
+            <button>Cancelar</button>
+            <button>Enviar</button>
+    
+          </div>
+
+
+
+          </fieldset>
+        </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      <div class="linha"></div>
+    </main>
+    <footer>
+      
+      <div class="container">
+        <section class="fo">
+          <div class="row">
+              <div class="col-md-4">
+                  <h4>Sobre Nós</h4>
+                  <p>Criar um site com a capacidade de ajudar a divulgar com seriedade pessoas que precisam de ajuda para ser encontradas traze-las de volta para a suas famílias.</p>
+              </div>
+              <div class="col-md-4">
+                  <h4></h4>
+                  <ul>
+                      <li><a href="#">Página Inicial</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="https://politicaprivacidade.com/">Política de Privacidade</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h4>Contato</h4>
+                  <p>Rua Virginia Ferni 400 (Rua), São Paulo, SP</p>
+                  <p>Cep  08253-000</p>
+                  <p>Email: venkCorp@gmail.com</p>
+                  <p>Telefone: (11) 40028922</p>
+              </div>
+          </div>
+      </div>
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+
+  </footer>
+
+
+
+
+
+
+
+
+  
+
+    <!-- Inclua o JavaScript do Bootstrap via CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="animt.js"></script>
+</body>
+</html>
